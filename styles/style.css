@@ -1,0 +1,190 @@
+#root{
+    display: flex;
+    justify-content: center;
+}
+.test{
+    text-align: center;
+}
+#title-panel{
+    width: 500px;
+}
+#upper-panel {
+    width: 500px;
+    height: 100px;
+}
+#lower-panel {
+    width: 500px;
+    height: 300px;
+}
+
+#test-info {
+    width: 284px;
+    height: 74px;
+    margin: 10px;
+    border: 3px solid lightgrey;
+    border-radius: 20px;
+    float: left;
+    text-align: left;
+    padding-left: 40px;
+}
+#test-score {
+    width: 124px;
+    height: 74px;
+    margin: 10px;
+    border: 3px solid lightgrey;
+    border-radius: 20px;
+    float: left;
+}
+#test-board{
+    width: 474px;
+    height: 274px;
+    margin: 10px;
+    border: 3px solid lightgrey;
+    border-radius: 20px;
+}
+#test-board-prev{
+    width: 100px;
+    height: 274px;
+    float: left;
+}
+#test-board-prev:hover .side{
+    color: dimgrey; 
+}
+#test-board-prev:hover img{
+    opacity:0.4;
+}
+#test-board-prevlight{
+    width: 100px;
+    height: 274px;
+    float: left;
+}
+#test-board-center{
+    width: 274px;
+    height: 274px;
+    float: left;
+}
+#test-board-next{
+    width: 100px;
+    height: 274px;
+    float: left;
+}
+#test-board-next:hover .side{
+    color: dimgrey; 
+}
+#test-board-next:hover img{
+    opacity:0.4;
+}
+
+h2 {
+    color: grey;
+    text-align: center;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: dimgrey;
+    font-size: 16px;
+    line-height: 10px;
+}
+span {
+    font-family: Arial, Helvetica, sans-serif;
+    color: dimgrey;
+    font-size: 12px;
+    line-height: 10px;
+}
+button {
+    color: darkgrey; 
+    border: none;
+    background-color: white;
+    font-size: 12px;
+}
+button:hover {
+    color: dimgrey;
+}
+img {
+    width: 40px;
+    opacity:0.2;
+}
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    color: dimgrey; 
+    font-size: 8px;
+    vertical-align:middle;
+    text-align: center;
+    outline: none;
+}
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    padding: 1px;
+    background-clip: content-box;
+    border: 1px solid lightgrey;
+    background-color:lightgrey;
+    border-radius: 50%;
+}
+input[type="radio"]:hover{
+    background-color: darkgrey;
+}
+input[type="radio"]:checked {
+    background-color: darkgrey;
+}
+
+
+.jp {
+    font-family: "Times New Roman", Times, serif;
+}
+.side {
+    position: relative;
+    top: 100px;
+    color: darkgrey;
+}
+#side-light-img {
+    position: relative;
+    top: 100px;
+    opacity: 0.1
+}
+#side-light-text {
+    position: relative;
+    top: 100px;
+    color: gainsboro
+}
+.narrow-text {
+    line-height: 10px;
+}
+#character {
+    position: relative;
+    top: 20px;
+    font-size: 70px;
+    line-height: 1px;
+}
+
+#score-text {
+    position: relative;
+    top: 8px;
+}
+#info-text {
+    position: relative;
+    top: 7px;
+}
+#inputanswer {
+    line-height: 24px;
+    width:90px;
+    font-size: 16px;
+}
+#enter-btn {
+    position: relative;
+    top: 10px;
+    font-size: 16px;
+}
+#reset-btn {
+    position: relative;
+    top: -2px;
+}
+#result {
+    position: relative;
+    top: -63px;
+    left: 67px;
+}
